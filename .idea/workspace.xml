@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="" />
+    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/creational/singleton/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +25,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pWOAiHPcQMVe32EltZFMI4m85U" />
   <component name="ProjectViewState">
@@ -27,8 +42,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.index.js (1)">
+  <component name="RunManager" selected="Node.js.index.js (2)">
     <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/creational/abstract-factory/index.js" working-dir="$PROJECT_DIR$/creational/abstract-factory">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/creational/singleton/index.js" working-dir="$PROJECT_DIR$/creational/singleton">
       <method v="2" />
     </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/creational/factory-method/index.js" working-dir="$PROJECT_DIR$/creational/factory-method">
@@ -36,6 +54,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js (2)" />
         <item itemvalue="Node.js.index.js (1)" />
         <item itemvalue="Node.js.index.js" />
       </list>
@@ -49,33 +68,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615295237175</updated>
-      <workItem from="1615295238210" duration="3487000" />
+      <workItem from="1615295238210" duration="4172000" />
+      <workItem from="1615364146319" duration="1455000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615295705213">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615295705213" />
-    <state width="1515" height="169" key="GridCell.Tab.0.bottom" timestamp="1615298668960">
+    <state width="1515" height="109" key="GridCell.Tab.0.bottom" timestamp="1615365543034">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="169" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615298668960" />
-    <state width="1515" height="169" key="GridCell.Tab.0.center" timestamp="1615298668960">
+    <state width="1515" height="109" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615365543034" />
+    <state width="1515" height="109" key="GridCell.Tab.0.center" timestamp="1615365543034">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="169" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615298668960" />
-    <state width="1515" height="169" key="GridCell.Tab.0.left" timestamp="1615298668960">
+    <state width="1515" height="109" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615365543034" />
+    <state width="1515" height="109" key="GridCell.Tab.0.left" timestamp="1615365543034">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="169" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615298668960" />
-    <state width="1515" height="169" key="GridCell.Tab.0.right" timestamp="1615298668960">
+    <state width="1515" height="109" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615365543034" />
+    <state width="1515" height="109" key="GridCell.Tab.0.right" timestamp="1615365543034">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="169" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615298668960" />
+    <state width="1515" height="109" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615365543034" />
   </component>
 </project>
