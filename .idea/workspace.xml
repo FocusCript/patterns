@@ -10,8 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="namespace">
-      <change afterPath="$PROJECT_DIR$/structural/adapter/index.js" afterDir="false" />
+    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="adapter">
+      <change afterPath="$PROJECT_DIR$/structural/decorator/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +43,8 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
-    <configuration name="index.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/creational/singleton/index.js" working-dir="$PROJECT_DIR$/creational/singleton">
+  <component name="RunManager" selected="Node.js.index.js (1)">
+    <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/structural/decorator/index.js" working-dir="$PROJECT_DIR$/structural/decorator">
       <method v="2" />
     </configuration>
     <configuration name="index.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/creational/prototype/index.js" working-dir="$PROJECT_DIR$/creational/prototype">
@@ -61,11 +61,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js (1)" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.index.js (5)" />
         <item itemvalue="Node.js.index.js (4)" />
         <item itemvalue="Node.js.index.js (3)" />
-        <item itemvalue="Node.js.index.js (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -78,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615295237175</updated>
       <workItem from="1615295238210" duration="4172000" />
-      <workItem from="1615364146319" duration="8168000" />
+      <workItem from="1615364146319" duration="9425000" />
     </task>
     <task id="LOCAL-00001" summary="singleton">
       <created>1615365661940</created>
@@ -108,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615385826304</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adapter">
+      <created>1615387756031</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615387756031</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,29 +137,30 @@
     <MESSAGE value="prototype" />
     <MESSAGE value="builder" />
     <MESSAGE value="namespace" />
-    <option name="LAST_COMMIT_MESSAGE" value="namespace" />
+    <MESSAGE value="adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615386319208">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615386319208" />
-    <state width="1515" height="181" key="GridCell.Tab.0.bottom" timestamp="1615387714529">
+    <state width="1515" height="258" key="GridCell.Tab.0.bottom" timestamp="1615388952884">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="181" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615387714529" />
-    <state width="1515" height="181" key="GridCell.Tab.0.center" timestamp="1615387714529">
+    <state width="1515" height="258" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615388952884" />
+    <state width="1515" height="258" key="GridCell.Tab.0.center" timestamp="1615388952884">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="181" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615387714529" />
-    <state width="1515" height="181" key="GridCell.Tab.0.left" timestamp="1615387714529">
+    <state width="1515" height="258" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615388952884" />
+    <state width="1515" height="258" key="GridCell.Tab.0.left" timestamp="1615388952884">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="181" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615387714529" />
-    <state width="1515" height="181" key="GridCell.Tab.0.right" timestamp="1615387714529">
+    <state width="1515" height="258" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615388952884" />
+    <state width="1515" height="258" key="GridCell.Tab.0.right" timestamp="1615388952884">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1515" height="181" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615387714529" />
+    <state width="1515" height="258" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615388952884" />
     <state x="588" y="120" key="RollbackChangesDialog" timestamp="1615369288824">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
