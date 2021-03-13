@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="decorator">
-      <change afterPath="$PROJECT_DIR$/structural/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="facade">
+      <change afterPath="$PROJECT_DIR$/structural/flyweight/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +42,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Focus_Git\Clean-github\patterns\structural\facade" />
+    </key>
+  </component>
   <component name="RunManager" selected="Node.js.index.js (2)">
     <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/structural/decorator/index.js" working-dir="$PROJECT_DIR$/structural/decorator">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/structural/flyweight/index.js" working-dir="$PROJECT_DIR$/structural/flyweight">
       <method v="2" />
     </configuration>
     <configuration name="index.js (4)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/creational/builder/index.js" working-dir="$PROJECT_DIR$/creational/builder">
@@ -62,10 +69,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.index.js (2)" />
+        <item itemvalue="Node.js.index.js (2)" />
         <item itemvalue="Node.js.index.js (1)" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.index.js (5)" />
-        <item itemvalue="Node.js.index.js (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +87,7 @@
       <workItem from="1615295238210" duration="4172000" />
       <workItem from="1615364146319" duration="10178000" />
       <workItem from="1615452764364" duration="11000" />
-      <workItem from="1615618032122" duration="776000" />
+      <workItem from="1615618032122" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="singleton">
       <created>1615365661940</created>
@@ -124,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615389132509</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="facade">
+      <created>1615619541104</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615619541104</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +163,8 @@
     <MESSAGE value="namespace" />
     <MESSAGE value="adapter" />
     <MESSAGE value="decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="decorator" />
+    <MESSAGE value="facade" />
+    <option name="LAST_COMMIT_MESSAGE" value="facade" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615386319208">
