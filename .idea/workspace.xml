@@ -10,8 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="flyweight">
-      <change afterPath="$PROJECT_DIR$/behaviour/iterator/index.js" afterDir="false" />
+    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="iterator">
+      <change afterPath="$PROJECT_DIR$/structural/proxy/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +48,14 @@
       <recent name="F:\Focus_Git\Clean-github\patterns\structural\facade" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.index.js (3)">
-    <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/structural/decorator/index.js" working-dir="$PROJECT_DIR$/structural/decorator">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.index.js (4)">
     <configuration name="index.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/structural/flyweight/index.js" working-dir="$PROJECT_DIR$/structural/flyweight">
       <method v="2" />
     </configuration>
     <configuration name="index.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/behaviour/iterator/index.js" working-dir="$PROJECT_DIR$/behaviour/iterator">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js (4)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/structural/proxy/index.js" working-dir="$PROJECT_DIR$/structural/proxy">
       <method v="2" />
     </configuration>
     <configuration name="index.js (5)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/creational/namespace/index.js" working-dir="$PROJECT_DIR$/creational/namespace">
@@ -69,11 +69,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js (4)" />
         <item itemvalue="Node.js.index.js (3)" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.index.js (2)" />
         <item itemvalue="Node.js.index.js (2)" />
-        <item itemvalue="Node.js.index.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +89,9 @@
       <workItem from="1615364146319" duration="10178000" />
       <workItem from="1615452764364" duration="11000" />
       <workItem from="1615618032122" duration="2625000" />
-      <workItem from="1615922478856" duration="1119000" />
+      <workItem from="1615922478856" duration="1155000" />
+      <workItem from="1615960186427" duration="668000" />
+      <workItem from="1615988656997" duration="1419000" />
     </task>
     <task id="LOCAL-00001" summary="singleton">
       <created>1615365661940</created>
@@ -147,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615621159659</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="iterator">
+      <created>1615923743983</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615923743983</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,40 +183,46 @@
     <MESSAGE value="decorator" />
     <MESSAGE value="facade" />
     <MESSAGE value="flyweight" />
-    <option name="LAST_COMMIT_MESSAGE" value="flyweight" />
+    <MESSAGE value="iterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="iterator" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615386319208">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615386319208" />
-    <state width="1515" height="166" key="GridCell.Tab.0.bottom" timestamp="1615923661264">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1615963128236">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1615963128236" />
+    <state width="1515" height="166" key="GridCell.Tab.0.bottom" timestamp="1615923758960">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="121" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615621920909" />
-    <state width="1515" height="166" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1615923661264" />
-    <state width="1515" height="166" key="GridCell.Tab.0.center" timestamp="1615923661264">
+    <state width="1515" height="166" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1615923758960" />
+    <state width="1515" height="166" key="GridCell.Tab.0.center" timestamp="1615923758960">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="121" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615621920909" />
-    <state width="1515" height="166" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1615923661264" />
-    <state width="1515" height="166" key="GridCell.Tab.0.left" timestamp="1615923661264">
+    <state width="1515" height="166" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1615923758960" />
+    <state width="1515" height="166" key="GridCell.Tab.0.left" timestamp="1615923758960">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="121" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615621920909" />
-    <state width="1515" height="166" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1615923661264" />
-    <state width="1515" height="166" key="GridCell.Tab.0.right" timestamp="1615923661264">
+    <state width="1515" height="166" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1615923758960" />
+    <state width="1515" height="166" key="GridCell.Tab.0.right" timestamp="1615923758960">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="121" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615621920909" />
-    <state width="1515" height="166" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1615923661264" />
+    <state width="1515" height="166" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1615923758960" />
     <state x="588" y="120" key="RollbackChangesDialog" timestamp="1615369288824">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="588" y="120" key="RollbackChangesDialog/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615369288824" />
-    <state x="586" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615365633290">
+    <state x="586" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615923731532">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="586" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615365633290" />
+    <state x="586" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1615923731532" />
   </component>
 </project>
