@@ -10,8 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="command">
-      <change afterPath="$PROJECT_DIR$/behaviour/chain-of-responsibility/index.js" afterDir="false" />
+    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="chain of responsibility">
+      <change afterPath="$PROJECT_DIR$/behaviour/strategy/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +48,14 @@
       <recent name="F:\Focus_Git\Clean-github\patterns\structural\facade" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.index.js">
+  <component name="RunManager" selected="Node.js.index.js (3)">
     <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/behaviour/observer/index.js" working-dir="$PROJECT_DIR$/behaviour/observer">
       <method v="2" />
     </configuration>
     <configuration name="index.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/behaviour/command/index.js" working-dir="$PROJECT_DIR$/behaviour/command">
       <method v="2" />
     </configuration>
-    <configuration name="index.js (4)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/structural/proxy/index.js" working-dir="$PROJECT_DIR$/structural/proxy">
+    <configuration name="index.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/behaviour/strategy/index.js" working-dir="$PROJECT_DIR$/behaviour/strategy">
       <method v="2" />
     </configuration>
     <configuration name="index.js (5)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/behaviour/state/index.js" working-dir="$PROJECT_DIR$/behaviour/state">
@@ -69,11 +69,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js (3)" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.index.js (2)" />
         <item itemvalue="Node.js.index.js (5)" />
         <item itemvalue="Node.js.index.js (1)" />
-        <item itemvalue="Node.js.index.js (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +91,7 @@
       <workItem from="1615618032122" duration="2625000" />
       <workItem from="1615922478856" duration="1155000" />
       <workItem from="1615960186427" duration="668000" />
-      <workItem from="1615988656997" duration="9101000" />
+      <workItem from="1615988656997" duration="10060000" />
     </task>
     <task id="LOCAL-00001" summary="singleton">
       <created>1615365661940</created>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616054491514</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="chain of responsibility">
+      <created>1616055886355</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1616055886355</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +223,8 @@
     <MESSAGE value="observer" />
     <MESSAGE value="state" />
     <MESSAGE value="command" />
-    <option name="LAST_COMMIT_MESSAGE" value="command" />
+    <MESSAGE value="chain of responsibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="chain of responsibility" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615386319208">
@@ -256,5 +264,9 @@
     </state>
     <state x="586" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615365633290" />
     <state x="586" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1615990078001" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1616057393678">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1616057393678" />
   </component>
 </project>
