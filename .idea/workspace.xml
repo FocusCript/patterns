@@ -10,8 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="chain of responsibility">
-      <change afterPath="$PROJECT_DIR$/behaviour/strategy/index.js" afterDir="false" />
+    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="strategy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +90,9 @@
       <workItem from="1615618032122" duration="2625000" />
       <workItem from="1615922478856" duration="1155000" />
       <workItem from="1615960186427" duration="668000" />
-      <workItem from="1615988656997" duration="10060000" />
+      <workItem from="1615988656997" duration="11545000" />
+      <workItem from="1616205900930" duration="44000" />
+      <workItem from="1616391601474" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="singleton">
       <created>1615365661940</created>
@@ -191,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616055886355</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="strategy">
+      <created>1616057778902</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616057778902</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,37 +232,38 @@
     <MESSAGE value="state" />
     <MESSAGE value="command" />
     <MESSAGE value="chain of responsibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="chain of responsibility" />
+    <MESSAGE value="strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="strategy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615386319208">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615386319208" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1615963128236">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1616205941065">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1615963128236" />
-    <state width="1515" height="194" key="GridCell.Tab.0.bottom" timestamp="1616055834631">
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616205941065" />
+    <state width="1515" height="126" key="GridCell.Tab.0.bottom" timestamp="1616063609487">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="121" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615621920909" />
-    <state width="1515" height="194" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616055834631" />
-    <state width="1515" height="194" key="GridCell.Tab.0.center" timestamp="1616055834631">
+    <state width="1515" height="126" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616063609487" />
+    <state width="1515" height="126" key="GridCell.Tab.0.center" timestamp="1616063609487">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="121" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615621920909" />
-    <state width="1515" height="194" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616055834631" />
-    <state width="1515" height="194" key="GridCell.Tab.0.left" timestamp="1616055834631">
+    <state width="1515" height="126" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616063609487" />
+    <state width="1515" height="126" key="GridCell.Tab.0.left" timestamp="1616063609487">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="121" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615621920909" />
-    <state width="1515" height="194" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616055834631" />
-    <state width="1515" height="194" key="GridCell.Tab.0.right" timestamp="1616055834631">
+    <state width="1515" height="126" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616063609487" />
+    <state width="1515" height="126" key="GridCell.Tab.0.right" timestamp="1616063609487">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="121" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615621920909" />
-    <state width="1515" height="194" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616055834631" />
+    <state width="1515" height="126" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616063609487" />
     <state x="588" y="120" key="RollbackChangesDialog" timestamp="1615369288824">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
