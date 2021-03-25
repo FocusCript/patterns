@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="strategy">
-      <change afterPath="$PROJECT_DIR$/structural/template/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="template">
+      <change afterPath="$PROJECT_DIR$/structural/visitor/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +48,10 @@
       <recent name="F:\Focus_Git\Clean-github\patterns\structural\facade" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.index.js (4)">
+  <component name="RunManager" selected="Node.js.index.js (1)">
+    <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/structural/visitor/index.js" working-dir="$PROJECT_DIR$/structural/visitor">
+      <method v="2" />
+    </configuration>
     <configuration name="index.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/behaviour/command/index.js" working-dir="$PROJECT_DIR$/behaviour/command">
       <method v="2" />
     </configuration>
@@ -57,9 +59,6 @@
       <method v="2" />
     </configuration>
     <configuration name="index.js (4)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/structural/template/index.js" working-dir="$PROJECT_DIR$/structural/template">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.js (5)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/behaviour/state/index.js" working-dir="$PROJECT_DIR$/behaviour/state">
       <method v="2" />
     </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/behaviour/chain-of-responsibility/index.js" working-dir="$PROJECT_DIR$/behaviour/chain-of-responsibility">
@@ -70,11 +69,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js (1)" />
         <item itemvalue="Node.js.index.js (4)" />
         <item itemvalue="Node.js.index.js (3)" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.index.js (2)" />
-        <item itemvalue="Node.js.index.js (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +95,7 @@
       <workItem from="1616205900930" duration="44000" />
       <workItem from="1616391601474" duration="314000" />
       <workItem from="1616402338304" duration="2102000" />
-      <workItem from="1616688623864" duration="311000" />
+      <workItem from="1616688623864" duration="1341000" />
     </task>
     <task id="LOCAL-00001" summary="singleton">
       <created>1615365661940</created>
@@ -203,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616057778902</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="template">
+      <created>1616689125784</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1616689125784</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +243,8 @@
     <MESSAGE value="command" />
     <MESSAGE value="chain of responsibility" />
     <MESSAGE value="strategy" />
-    <option name="LAST_COMMIT_MESSAGE" value="strategy" />
+    <MESSAGE value="template" />
+    <option name="LAST_COMMIT_MESSAGE" value="template" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615386319208">
@@ -248,35 +255,35 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616407113942" />
-    <state width="1515" height="126" key="GridCell.Tab.0.bottom" timestamp="1616063609487">
+    <state width="1515" height="216" key="GridCell.Tab.0.bottom" timestamp="1616689963982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="121" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615621920909" />
-    <state width="1515" height="126" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616063609487" />
-    <state width="1515" height="126" key="GridCell.Tab.0.center" timestamp="1616063609487">
+    <state width="1515" height="216" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1616689963982" />
+    <state width="1515" height="216" key="GridCell.Tab.0.center" timestamp="1616689963982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="121" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615621920909" />
-    <state width="1515" height="126" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616063609487" />
-    <state width="1515" height="126" key="GridCell.Tab.0.left" timestamp="1616063609487">
+    <state width="1515" height="216" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1616689963982" />
+    <state width="1515" height="216" key="GridCell.Tab.0.left" timestamp="1616689963981">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="121" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615621920909" />
-    <state width="1515" height="126" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616063609487" />
-    <state width="1515" height="126" key="GridCell.Tab.0.right" timestamp="1616063609487">
+    <state width="1515" height="216" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1616689963981" />
+    <state width="1515" height="216" key="GridCell.Tab.0.right" timestamp="1616689963982">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="121" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615621920909" />
-    <state width="1515" height="126" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616063609487" />
+    <state width="1515" height="216" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1616689963982" />
     <state x="588" y="120" key="RollbackChangesDialog" timestamp="1615369288824">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="588" y="120" key="RollbackChangesDialog/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615369288824" />
-    <state x="586" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615990078001">
+    <state x="586" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616689103059">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="586" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615365633290" />
-    <state x="586" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1615990078001" />
+    <state x="586" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1616689103059" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1616057393678">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
