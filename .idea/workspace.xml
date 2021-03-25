@@ -11,6 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="477e33b3-bf8c-400c-8719-9eea39a2b8a2" name="Default Changelist" comment="strategy">
+      <change afterPath="$PROJECT_DIR$/structural/template/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,14 +49,14 @@
       <recent name="F:\Focus_Git\Clean-github\patterns\structural\facade" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.index.js (3)">
-    <configuration name="index.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/behaviour/observer/index.js" working-dir="$PROJECT_DIR$/behaviour/observer">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.index.js (4)">
     <configuration name="index.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/behaviour/command/index.js" working-dir="$PROJECT_DIR$/behaviour/command">
       <method v="2" />
     </configuration>
     <configuration name="index.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/behaviour/strategy/index.js" working-dir="$PROJECT_DIR$/behaviour/strategy">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js (4)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/structural/template/index.js" working-dir="$PROJECT_DIR$/structural/template">
       <method v="2" />
     </configuration>
     <configuration name="index.js (5)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/behaviour/state/index.js" working-dir="$PROJECT_DIR$/behaviour/state">
@@ -68,11 +70,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js (4)" />
         <item itemvalue="Node.js.index.js (3)" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.index.js (2)" />
         <item itemvalue="Node.js.index.js (5)" />
-        <item itemvalue="Node.js.index.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +95,8 @@
       <workItem from="1615988656997" duration="11545000" />
       <workItem from="1616205900930" duration="44000" />
       <workItem from="1616391601474" duration="314000" />
+      <workItem from="1616402338304" duration="2102000" />
+      <workItem from="1616688623864" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="singleton">
       <created>1615365661940</created>
@@ -240,10 +244,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="526" y="219" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/1920.0.1600.870@0.0.1536.834" timestamp="1615386319208" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1616205941065">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1616407113942">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616205941065" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1616407113942" />
     <state width="1515" height="126" key="GridCell.Tab.0.bottom" timestamp="1616063609487">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
